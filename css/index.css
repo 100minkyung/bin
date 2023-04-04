@@ -1,0 +1,208 @@
+.flex{
+    display: flex;
+}
+.sec{
+    padding: 0 calc(100vw * 95 / 1920);
+}
+h2{
+    font-size: calc(100vw * 36 / 1920);
+}
+.line{
+    width: 100%;
+    border-top: calc(100vw * 2 / 1920) solid var(--black);
+}
+
+/* section1 */
+.sec1 h1{
+    margin-top: calc(100vw * 192 / 1920);
+    color: var(--blue);
+    font-size: calc(100vw * 300 / 1920);
+    font-weight: bold;
+    line-height: calc(100vw * 289 / 1920);
+}
+.sec1 h1 span{
+    margin-left: calc(100vw * 170 / 1920);
+    display: inline-block;
+}
+.sec1 .flex{
+    margin-top: calc(100vw * 135 / 1920);
+    margin-bottom: calc(100vw * 100 / 1920);
+    gap: calc(100vw * 51 / 1920);
+}
+.sec1 .flex ul:nth-child(1){
+    color: var(--blue);
+}
+.sec1 .flex li{
+    margin-bottom: calc(100vw * 12 / 1920);
+}
+.sec1 .flex li:last-of-type{
+    margin-bottom: 0;
+}
+
+/* section2 */
+.sec2{
+    padding: calc(100vw * 110 / 1920) calc(100vw * 95 / 1920);
+    background-color: var(--blue);
+    color: var(--white);
+}
+.sec2 .flex{
+    margin-top: calc(100vw * 45 / 1920);
+    margin-bottom: calc(100vw * 100 / 1920);
+    font-family: var(--n);
+    font-size: calc(100vw * 20 / 1920);
+    line-height: 175%;
+    gap: calc(100vw * 46 / 1920);
+}
+
+/* section3 */
+.sec3 h2{
+    margin-top: calc(100vw * 250 / 1920);
+    margin-bottom: calc(100vw * 105 / 1920);
+}
+.sec3 .flex1{
+    gap: calc(100vw * 37 / 1920);
+    margin-bottom: calc(100vw * 250 / 1920);
+}
+.sec3 .flex1 div{
+    width: calc(100vw * 402 / 1920);
+}
+.sec3 .flex1 div h3{
+    font-family: var(--n);
+    font-size: calc(100vw * 20 / 1920);
+    margin-bottom: calc(100vw * 10 / 1920);
+}
+.sec3 .flex1 div p{
+    font-size: calc(100vw * 240 / 1920);
+    text-align: center;
+    color: var(--blue);
+}
+.sec3 .flex1 div:nth-of-type(2) p{
+    font-style: italic;
+}
+.sec3 .flex1 div:nth-of-type(3) p{
+    font-weight: bold;
+}
+.sec3 .flex1 div:nth-of-type(4) p{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.sec3 .flex2{
+    flex-flow: column;
+    gap: calc(100vw * 78 / 1920);
+    margin-bottom: calc(100vw * 250 / 1920);
+}
+
+.sec3 .flex3{
+    justify-content: space-between;
+}
+.sec3 .flex3 h4{
+    font-size: calc(100vw * 20 / 1920);
+    color: var(--blue);
+    font-family: var(--n);
+    line-height: 188%;
+}
+.sec3 .flex3 p{
+    display: inline;
+    width: calc(100vw * 1440 / 1920);
+    font-size: calc(100vw * 32 / 1920);
+    line-height: 188%;
+}
+.sec3 .flex3:nth-of-type(2) p{
+    font-weight: bold;
+}
+.sec3 .flex3:nth-of-type(3) p{
+    font-style: italic;
+}
+.sec3 .flex3:nth-of-type(4) p{
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* section4 */
+.sec4{
+    position: relative;
+    background: var(--blue);
+    color: var(--white);
+}
+.sec4 h2{
+    padding-top: calc(100vw * 105 / 1290);
+}
+.sec4 p{
+    margin-top: calc(100vw * 113 / 1920);
+    margin-bottom: calc(100vw * 120 / 1920);
+    font-size: calc(100vw * 260 / 1920);
+    text-align: center;
+}
+.sec4 .flex p{
+    margin-top: calc(100vw * 15 / 1920);
+    margin-bottom: 0;
+    font-size: calc(100vw * 20 / 1920);
+    text-align: center;
+    font-weight: normal;
+    font-style: normal;
+}
+.sec4 .line{
+    padding-bottom: calc(100vw * 214 / 1920);
+    margin: 0 auto;
+    width: calc(100vw * 1400 / 1920);
+    border-top: solid var(--white) calc(100vw * 5 / 1920);
+}
+.sec4 button{
+    width: calc(100vw * 28 / 1920);
+    height: calc(100vw * 28 / 1920);
+    background: var(--white);
+    border-radius: 50%;
+}
+.sec4 button::after{
+    content: '';
+    display: block;
+    width: calc(100vw * 20 / 1920);
+    height: calc(100vw * 20 / 1920);
+    margin-left: calc(100vw * 4 / 1920);
+    background: var(--blue);
+    border-radius: 50%;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+.sec4 button.active::after{
+    opacity: 0;
+}
+.sec4 .flex{
+    bottom: calc(100vw * 165 / 1920);
+    left: 51%;
+    transform: translateX(-50%);
+    position: absolute;
+    width: calc(100vw * 1500 / 1920);
+    text-align: center;
+    justify-content: space-between;
+}
+
+/* section5 */
+.sec5 img{
+    width: 100vw;
+}
+
+/* section6 */
+.sec6 h2{
+    margin-top: calc(100vw * 250 / 1920);
+}
+.sec6 h3{
+    margin-top: calc(100vw * 100 / 1920);
+    margin-bottom: calc(100vw * 21 / 1920);
+    font-family: var(--n);
+    font-size: calc(100vw * 20 / 1920);
+    font-weight: normal;
+}
+.sec6 p{
+    margin: calc(100vw * 123 / 1920) auto;
+    color: var(--blue);
+    font-size: calc(100vw * 160 / 1920);
+    letter-spacing: 0.185em;
+    word-break: break-all;
+}
+
+/* section7 */
+.sec7 img{
+    width: 100vw;
+}

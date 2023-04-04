@@ -1,0 +1,27 @@
+/* Font */
+
+:root{
+    /* color */
+    --blue: #3849FF;
+    --black: #0C0C0C;
+    --white: #FFFFFF;
+
+    --n: 'NanumSquare', sans-serif;
+}
+
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+body{font-family: 'courier-std', monospace; color: var(--black);}
+
+
+/* CSS Reset */
+
+html {font-size: 62.5%;}
+body{-ms-overflow-style: none; font-size: 1.6rem;}
+::-webkit-scrollbar {display: none;}
+body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,legend,li,ol,p,select,table,td,textarea,th,ul, header, nav, section, video, div { margin:0; padding:0; box-sizing: border-box;}
+button,input { border-radius:0; border: none; background-color: transparent; cursor: pointer;}
+fieldset,img { border:0 }
+ol,ul { list-style:none }
+address,em { font-style:normal }
+a { text-decoration:none }
+iframe { overflow:hidden; margin:0; padding:0; border:0 }
