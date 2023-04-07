@@ -5,7 +5,7 @@ $(document).ready(function(){
             $(".sec4 button").eq(i).addClass("active")
 
             if($(".sec4 button").eq(0).hasClass("active")){
-                $(".sec4>p").css({"font-style": "normal", "font-weight": "nromal"})
+                $(".sec4>p").css({"font-style": "normal", "font-weight": "normal"})
             }
             else if($(".sec4 button").eq(1).hasClass("active")){
                 $(".sec4>p").css({"font-style": "italic", "font-weight": "normal"})
